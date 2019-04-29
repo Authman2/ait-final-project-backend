@@ -1,0 +1,17 @@
+{
+  "name": "final-project-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config backend/api.js",
+    "deploy": "git add . && git commit -m \"updates\" && git push heroku master"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "hapi": "^18.1.0",
+    "mongoose": "^5.5.4"
+  }
+}
